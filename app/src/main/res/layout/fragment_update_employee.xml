@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srikanthpuram.samples.roomdatabaseapp.UpdateEmployeeFragment">
+
+    <TextView
+        android:id="@+id/update_employee_title_tv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="@string/update_employee"/>
+
+    <EditText
+        android:id="@+id/update_employee_id_edit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/update_employee_title_tv"
+        android:hint="@string/employee_id"
+        android:inputType="numberSigned"
+        android:maxLines="1"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/update_employee_name_edit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/update_employee_id_edit"
+        android:hint="@string/employee_name"
+        android:maxLines="1"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/update_employee_designation_edit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/update_employee_name_edit"
+        android:hint="@string/employee_designation"
+        android:maxLines="1"
+        android:imeOptions="actionNext"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/update_employee_designation_edit"
+        android:text="@string/update_employee"/>
+</RelativeLayout>

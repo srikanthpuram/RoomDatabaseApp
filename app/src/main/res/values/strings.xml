@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RoomDatabaseApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="show_employee">Show Employees</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="employee_id">Employee Id</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_designation">Employee Designation</string>
+</resources>
